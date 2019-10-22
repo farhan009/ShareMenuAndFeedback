@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackLayout"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/fullname_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Full name"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/feedback_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Feedback" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/submit_Button_id"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#3F51B5" />
+
+        <Button
+            android:id="@+id/clear_Button_id"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#3F51B5" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
